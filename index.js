@@ -1,2 +1,4 @@
-const person = require('./person');
-console.log(person.age);
+const Person = require('./person');
+
+const me = new Person('Pkro', 40);
+me.greet();
