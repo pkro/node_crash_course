@@ -1,0 +1,14 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "traversymedia node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pkro/traversymedia"
+  ],
+  "author": "pkro/traversymedia",
+  "license": "ISC"
+}
