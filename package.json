@@ -10,5 +10,11 @@
     "pkro/traversymedia"
   ],
   "author": "pkro/traversymedia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
