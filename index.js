@@ -1,12 +1,7 @@
-/*
-// commonjs
-const Person = require('./person');
-/* Note: 
-import Person from './person' doesn't work in nodejs (yet), ES6 Syntax is only supported by babbel
--> pkr: it might be supported now with additional 
-*/
+const Logger = require('./logger');
 
-const me = new Person('Pkro', 40);
-me.greet();
+myLogger = new Logger();
 
-export default me;
+myLogger.on('message', data => console.log('Called listener:',  data));
+
+myLogger.log("hello world");
