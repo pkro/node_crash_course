@@ -1,0 +1,13 @@
+const http = require('http');
+
+// create server object
+http.createServer((req, res) => {
+    res.write('Hello World');
+    res.end();
+}).listen(5000, () => {
+    console.log("Server running");
+});
+
+// http://localhost:5000/
+// Hello World
+
